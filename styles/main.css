@@ -1,0 +1,125 @@
+.sw_form {
+    float: left;
+    margin: 10px 0;
+    width: 75%;
+}     
+
+.sw_form .sidebar-data {
+    background: #fafafa;
+    border: 1px solid #ddd;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px; 
+    cursor: pointer;
+    font-size: 18px;
+    letter-spacing: .5px;
+    margin: 0 0 10px;
+    padding: 8px 10px;
+} 
+
+.sw_form .sidebar-data:hover {
+    background: #fefefe;
+}
+
+.sw_form .sidebar-widgets { 
+    display: none;
+}
+
+.sw_form .widget-entry {
+    border: 1px solid #ccc;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px; 
+    margin: 0 0 10px 20px;
+}
+
+.sw_form .widget-entry .widget-data {  
+    background: #fafafa; 
+    cursor: pointer;
+    letter-spacing: .5px;
+    padding: 8px 10px;       
+}
+
+.sw_form .widget-entry .widget-data:hover {  
+    background: #fff;         
+}
+
+.sw_form .widget-entry .widget-data {  
+    background: #fafafa; 
+    cursor: pointer;
+    letter-spacing: .5px;
+    padding: 8px 10px;       
+}
+
+.sw_form .widget-entry em {
+    color: red;
+    font-size: 11px;
+    left: 2px;
+}
+
+.sw_form .widget-entry .widget-settings {   
+    border-top: 1px solid #ccc;  
+    display: none;
+    padding: 10px 8px;
+}
+
+.sw_form .widget-entry .widget-settings h2 {
+    font-size: 14px;
+}    
+
+.form-table {         
+    margin: 0;
+}    
+
+.form-table th {
+    text-align: right;
+}    
+
+.form-table th label {
+    font-weight: bold;
+}  
+
+.form-table td ul {
+    margin: 0 0 1em;
+}
+
+.form-table td h3 {
+    font-size: 12px;
+    margin: 1em 0 0;
+}
+
+.form-table td textarea {
+    width: 75%;
+}
+
+.sw_contact {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    float: right;
+    padding: 0 0 0 20px;
+    width: 25%;
+}
+
+@media all and (max-width:1110px)  {
+    .sw_form {
+        width: 60%;
+    }
+    
+    .sw_contact {
+        width: 40%;
+    }
+}
+
+@media all and (max-width:930px)  {
+    .sw_form {
+        float: none;
+        width: 100%;
+    }
+    
+    .sw_contact {
+        float: none;
+        padding: 0;
+        width: 100%;
+    }
+}
